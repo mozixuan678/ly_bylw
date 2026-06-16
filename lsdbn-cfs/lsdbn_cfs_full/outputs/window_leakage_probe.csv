@@ -1,0 +1,10 @@
+﻿warning,k,model,test_accuracy,test_balanced_accuracy,confusion_matrix
+window-level random split; subject leakage likely; diagnostic only,256,extra_trees,0.9995112414467253,0.9995429616087752,"[[1093, 1], [0, 952]]"
+window-level random split; subject leakage likely; diagnostic only,512,extra_trees,0.9995112414467253,0.9995429616087752,"[[1093, 1], [0, 952]]"
+window-level random split; subject leakage likely; diagnostic only,512,random_forest,0.9990224828934506,0.9990859232175503,"[[1092, 2], [0, 952]]"
+window-level random split; subject leakage likely; diagnostic only,256,random_forest,0.998533724340176,0.9986288848263254,"[[1091, 3], [0, 952]]"
+window-level random split; subject leakage likely; diagnostic only,124,extra_trees,0.9980449657869013,0.9981718464351006,"[[1090, 4], [0, 952]]"
+window-level random split; subject leakage likely; diagnostic only,124,random_forest,0.9960899315738025,0.9963436928702011,"[[1086, 8], [0, 952]]"
+window-level random split; subject leakage likely; diagnostic only,512,rbf_svc,0.7228739002932552,0.7223847034243314,"[[798, 296], [271, 681]]"
+window-level random split; subject leakage likely; diagnostic only,256,rbf_svc,0.7204301075268817,0.7198949963897807,"[[796, 298], [274, 678]]"
+window-level random split; subject leakage likely; diagnostic only,124,rbf_svc,0.7179863147605083,0.7175416327408477,"[[792, 302], [275, 677]]"

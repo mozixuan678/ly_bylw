@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="460" viewBox="0 0 980 460">
+<rect width="100%" height="100%" fill="white"/>
+<text x="490.0" y="30" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700">Final Model Performance</text>
+<text x="24" y="191.0" text-anchor="middle" transform="rotate(-90 24,191.0)" font-family="Arial" font-size="13">Accuracy</text>
+<line x1="80" y1="54" x2="80" y2="328" stroke="#333"/>
+<line x1="80" y1="328" x2="946" y2="328" stroke="#333"/>
+<line x1="76" y1="328.0" x2="946" y2="328.0" stroke="#e5e7eb"/>
+<text x="72" y="332.0" text-anchor="end" font-family="Arial" font-size="11">0.00</text>
+<line x1="76" y1="259.5" x2="946" y2="259.5" stroke="#e5e7eb"/>
+<text x="72" y="263.5" text-anchor="end" font-family="Arial" font-size="11">0.22</text>
+<line x1="76" y1="191.0" x2="946" y2="191.0" stroke="#e5e7eb"/>
+<text x="72" y="195.0" text-anchor="end" font-family="Arial" font-size="11">0.44</text>
+<line x1="76" y1="122.5" x2="946" y2="122.5" stroke="#e5e7eb"/>
+<text x="72" y="126.5" text-anchor="end" font-family="Arial" font-size="11">0.66</text>
+<line x1="76" y1="54.0" x2="946" y2="54.0" stroke="#e5e7eb"/>
+<text x="72" y="58.0" text-anchor="end" font-family="Arial" font-size="11">0.88</text>
+<rect x="114.6" y="63.6" width="107.4" height="264.4" fill="#2563eb"/>
+<text x="168.3" y="57.6" text-anchor="middle" font-family="Arial" font-size="12">0.846</text>
+<text x="168.3" y="348" text-anchor="end" transform="rotate(-35 168.3,348)" font-family="Arial" font-size="11">LSDBN-CFS + BCFS-124 + focused ExtraTrees</text>
+<rect x="287.8" y="69.8" width="107.4" height="258.2" fill="#2563eb"/>
+<text x="341.5" y="63.8" text-anchor="middle" font-family="Arial" font-size="12">0.826</text>
+<text x="341.5" y="348" text-anchor="end" transform="rotate(-35 341.5,348)" font-family="Arial" font-size="11">LSDBN-CFS + BCFS-124 + ExtraTrees baseline</text>
+<rect x="461.0" y="84.4" width="107.4" height="243.6" fill="#2563eb"/>
+<text x="514.7" y="78.4" text-anchor="middle" font-family="Arial" font-size="12">0.780</text>
+<text x="514.7" y="348" text-anchor="end" transform="rotate(-35 514.7,348)" font-family="Arial" font-size="11">LSDBN-CFS + BCFS-124 + SVM</text>
+<rect x="634.2" y="63.6" width="107.4" height="264.4" fill="#2563eb"/>
+<text x="687.9" y="57.6" text-anchor="middle" font-family="Arial" font-size="12">0.846</text>
+<text x="687.9" y="348" text-anchor="end" transform="rotate(-35 687.9,348)" font-family="Arial" font-size="11">Subject-level majority vote</text>
+<rect x="807.4" y="54.0" width="107.4" height="274.0" fill="#2563eb"/>
+<text x="861.1" y="48.0" text-anchor="middle" font-family="Arial" font-size="12">0.877</text>
+<text x="861.1" y="348" text-anchor="end" transform="rotate(-35 861.1,348)" font-family="Arial" font-size="11">Diagnostic test-best BCFS-124</text>
+</svg>

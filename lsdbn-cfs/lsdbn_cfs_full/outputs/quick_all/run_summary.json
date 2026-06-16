@@ -1,0 +1,101 @@
+{
+  "config": {
+    "data_path": "..\\ADdata.npy",
+    "output_dir": "outputs\\quick_all",
+    "random_state": 42,
+    "repeats": 1,
+    "methods": "all",
+    "force_recompute_dec": false,
+    "window": 25,
+    "step": 5,
+    "te_lag": 1,
+    "te_eps": 1e-08,
+    "train_ratio": 0.6,
+    "fs_ratio": 0.3,
+    "test_ratio": 0.1,
+    "input_prefilter_k": 256,
+    "selected_k": 124,
+    "relief_neighbors": 1,
+    "hidden_layers": [
+      96,
+      48,
+      24
+    ],
+    "jcfs_keep": [
+      64,
+      32,
+      16
+    ],
+    "epochs": 2,
+    "batch_size": 128,
+    "cd_k": 1,
+    "lr_first": 0.001,
+    "lr_other": 0.01,
+    "weight_decay": 0.005,
+    "logsum_lambda": 0.005,
+    "kl_lambda_first": 0.001,
+    "kl_lambda_other": 0.0001,
+    "sparsity_target": 0.01,
+    "logsum_eps": 0.001,
+    "device": "auto",
+    "jcfs_beta": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "ecfs_alpha": 0.5,
+    "kappa": 0.03,
+    "kappa_values": [
+      0.0,
+      0.01,
+      0.03,
+      0.05,
+      0.08,
+      0.1
+    ],
+    "m_min": 20,
+    "classifier": "logistic"
+  },
+  "repeat_summaries": [
+    {
+      "seed": 42,
+      "n_subjects": 132,
+      "n_windows_per_subject": 33,
+      "train_subjects": 79,
+      "feature_selection_subjects": 40,
+      "test_subjects": 13,
+      "X_train_shape": [
+        2607,
+        8010
+      ],
+      "X_fs_shape": [
+        1320,
+        8010
+      ],
+      "X_test_shape": [
+        429,
+        8010
+      ],
+      "y_train_counts": [
+        1386,
+        1221
+      ],
+      "y_fs_counts": [
+        693,
+        627
+      ],
+      "y_test_counts": [
+        231,
+        198
+      ]
+    }
+  ],
+  "elapsed_seconds": 149.56450390815735,
+  "outputs": {
+    "model_performance": "outputs\\quick_all\\model_performance.csv",
+    "ablation_study": "outputs\\quick_all\\ablation_study.csv",
+    "threshold_curve": "outputs\\quick_all\\threshold_curve.csv",
+    "selected_features": "outputs\\quick_all\\selected_features.csv",
+    "roi_frequency": "outputs\\quick_all\\roi_frequency.csv"
+  }
+}

@@ -1,0 +1,2 @@
+﻿scenario,test_accuracy,test_balanced_accuracy,test_confusion_matrix
+abstract_features,0.5384615384615384,0.5,"[[1085, 0], [930, 0]]"

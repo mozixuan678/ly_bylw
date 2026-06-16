@@ -1,0 +1,6 @@
+﻿name,type,accuracy,balanced_accuracy,source_file
+Subject-level vote/mean,subject,0.8461538461538461,0.8571428571428572,outputs/subject_level_eval/subject_level_results.csv
+LSDBN-CFS BCFS-124 ExtraTrees,window,0.826302729528536,0.8387096774193548,outputs/bcfs_selected_classifier_eval.csv
+Best 124-feature ensemble,window,0.8218362282878412,0.8341013824884793,outputs/ensemble_124_eval.csv
+Best single 124-feature model,window,0.8208436724565756,0.8331797235023042,outputs/final_124_eval/final_124_performance.csv
+LSDBN-CFS BCFS-124 SVM,window,0.7796526054590571,0.7879416282642089,outputs/precomputed_lsdbn_h128/threshold_curve.csv

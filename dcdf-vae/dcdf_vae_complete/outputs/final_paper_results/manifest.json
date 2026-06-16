@@ -1,0 +1,30 @@
+{
+  "paper_tables": [
+    "table_subject",
+    "table_var_results",
+    "table_lorenz96_results",
+    "table_pnc_difference",
+    "table_dec_ratio",
+    "table_ablation",
+    "table_emoid_difference"
+  ],
+  "reproduced_tables": [
+    "reproduced_var",
+    "reproduced_lorenz96",
+    "reproduced_pnc_difference",
+    "reproduced_dec_ratio",
+    "reproduced_emoid_difference",
+    "reproduced_emoid_dec_ratio"
+  ],
+  "figures": [
+    "figures\\ECdistribution.png",
+    "figures\\ROIvar.png",
+    "figures\\decs.png",
+    "figures\\figure1_method_heatmaps.png",
+    "figures\\figure2_rsn_distribution_flow.png",
+    "figures\\figure3_dynamic_variance.png",
+    "figures\\figure4_dynamic_flow_DMN.png",
+    "figures\\figure4_dynamic_flow_SSN.png",
+    "figures\\figure5_emoid_group_difference.png"
+  ]
+}

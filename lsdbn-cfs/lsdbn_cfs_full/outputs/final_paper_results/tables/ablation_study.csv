@@ -1,0 +1,6 @@
+﻿model_setting,sparse_regularization,JCFS,BCFS,classifier_optimization,test_accuracy,balanced_accuracy
+LSDBN-CFS + BCFS-124 + SVM,check,check,check,none,77.97%,78.79%
+BCFS-124 + ExtraTrees baseline,check,check,check,fixed ExtraTrees,82.63%,83.87%
+BCFS-124 + focused ExtraTrees,check,check,check,FS-selected weight/leaf/threshold,84.62%,85.64%
+BCFS-124 + test-best diagnostic,check,check,check,"diagnostic, test-sorted",87.69%,88.29%
+Window-random split probe,check,check,check,"diagnostic, leakage risk",99.95%,99.95%

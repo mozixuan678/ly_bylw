@@ -1,0 +1,2 @@
+﻿final_model,n_selected_features,selected_threshold,test_accuracy,test_balanced_accuracy,precision,recall,f1,confusion_matrix,n_windows_per_subject
+LSDBN-CFS + BCFS-124 + focused ExtraTrees,124,0.4716939640826283,84.62%,85.64%,75.41%,98.92%,85.58%,"[[785, 300], [10, 920]]",155

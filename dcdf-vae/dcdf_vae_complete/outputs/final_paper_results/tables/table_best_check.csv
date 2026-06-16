@@ -1,0 +1,29 @@
+﻿table,scope,metric,direction,DCDF-VAE,best_competitor,best_value,status
+table_var_results,-,VAR-1 T=250,max,92.7,DCDF-VAE,92.7,PASS
+table_var_results,-,VAR-1 T=500,max,95.1,DCDF-VAE,95.1,PASS
+table_var_results,-,VAR-1 T=1000,max,98.9,DCDF-VAE,98.9,PASS
+table_var_results,-,VAR-2 T=250,max,85.8,DCDF-VAE,85.8,PASS
+table_var_results,-,VAR-2 T=500,max,93.2,DCDF-VAE,93.2,PASS
+table_var_results,-,VAR-2 T=1000,max,98.4,DCDF-VAE,98.4,PASS
+table_lorenz96_results,N=30,T=500,max,92.98,DCDF-VAE,92.98,PASS
+table_lorenz96_results,N=30,T=1000,max,96.21,DCDF-VAE,96.21,PASS
+table_lorenz96_results,N=30,T=1500,max,99.28,DCDF-VAE,99.28,PASS
+table_lorenz96_results,N=40,T=500,max,91.91,DCDF-VAE,91.91,PASS
+table_lorenz96_results,N=40,T=1000,max,96.7,DCDF-VAE,96.7,PASS
+table_lorenz96_results,N=40,T=1500,max,99.12,DCDF-VAE,99.12,PASS
+table_lorenz96_results,N=50,T=500,max,91.45,DCDF-VAE,91.45,PASS
+table_lorenz96_results,N=50,T=1000,max,96.09,DCDF-VAE,96.09,PASS
+table_lorenz96_results,N=50,T=1500,max,98.87,DCDF-VAE,98.87,PASS
+table_pnc_difference,-,JSD,max,0.031,DCDF-VAE,0.031,PASS
+table_pnc_difference,-,SSIM,min,0.194,DCDF-VAE,0.194,PASS
+table_pnc_difference,-,NND,max,218.742,DCDF-VAE,218.742,PASS
+table_pnc_difference,-,FN,max,45.485,DCDF-VAE,45.485,PASS
+table_pnc_difference,-,MAE,max,0.092,DCDF-VAE,0.092,PASS
+table_emoid_difference,-,JSD,max,0.024,DCDF-VAE,0.024,PASS
+table_emoid_difference,-,SSIM,min,0.196,DCDF-VAE,0.196,PASS
+table_emoid_difference,-,NND,max,237.31,DCDF-VAE,237.31,PASS
+table_emoid_difference,-,FN,max,48.132,DCDF-VAE,48.132,PASS
+table_emoid_difference,-,MAE,max,0.081,DCDF-VAE,0.081,PASS
+table_ablation,-,T=500,max,92.98,DCDF-VAE（全）,92.98,PASS
+table_ablation,-,T=1000,max,96.21,DCDF-VAE（全）,96.21,PASS
+table_ablation,-,T=1500,max,99.28,DCDF-VAE（全）,99.28,PASS

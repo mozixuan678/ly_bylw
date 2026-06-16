@@ -1,0 +1,37 @@
+{
+  "best": {
+    "ranker": "anova",
+    "classifier": "extra_trees",
+    "C": 1.0,
+    "train_strategy": "train_plus_feature_selection",
+    "threshold_strategy": "default",
+    "n_features": 124,
+    "fs_accuracy": NaN,
+    "fs_balanced_accuracy": NaN,
+    "test_accuracy": 0.8208436724565756,
+    "test_balanced_accuracy": 0.8331797235023042,
+    "test_confusion_matrix": "[[730, 355], [6, 924]]",
+    "threshold": NaN
+  },
+  "n_windows_per_subject": 155,
+  "train_shape": [
+    12245,
+    8010
+  ],
+  "fs_shape": [
+    6200,
+    8010
+  ],
+  "test_shape": [
+    2015,
+    8010
+  ],
+  "outputs": {
+    "performance": "outputs\\final_124_eval\\final_124_performance.csv",
+    "selected_features": "outputs\\final_124_eval\\selected_124_features.csv",
+    "roi_frequency": "outputs\\final_124_eval\\roi_frequency.csv",
+    "performance_svg": "outputs\\final_124_eval\\performance_top8.svg",
+    "confusion_svg": "outputs\\final_124_eval\\best_confusion_matrix.svg",
+    "roi_svg": "outputs\\final_124_eval\\roi_top12.svg"
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="360" viewBox="0 0 430 360">
+<rect width="100%" height="100%" fill="white"/>
+<text x="215.0" y="30" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700">Final Strict Test Confusion Matrix</text>
+<rect x="116" y="72" width="100" height="100" fill="rgb(117,137,255)" stroke="#333"/>
+<text x="166.0" y="129.0" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">785</text>
+<rect x="216" y="72" width="100" height="100" fill="rgb(196,216,255)" stroke="#333"/>
+<text x="266.0" y="129.0" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">300</text>
+<rect x="116" y="172" width="100" height="100" fill="rgb(243,263,255)" stroke="#333"/>
+<text x="166.0" y="229.0" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">10</text>
+<rect x="216" y="172" width="100" height="100" fill="rgb(95,115,255)" stroke="#333"/>
+<text x="266.0" y="229.0" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">920</text>
+<text x="216" y="314" text-anchor="middle" font-family="Arial" font-size="14">Predicted</text>
+<text x="34" y="172" text-anchor="middle" transform="rotate(-90 34,172)" font-family="Arial" font-size="14">True</text>
+<text x="166.0" y="60" text-anchor="middle" font-family="Arial" font-size="13">CN</text>
+<text x="266.0" y="60" text-anchor="middle" font-family="Arial" font-size="13">EMCI</text>
+<text x="96" y="127.0" text-anchor="end" font-family="Arial" font-size="13">CN</text>
+<text x="96" y="227.0" text-anchor="end" font-family="Arial" font-size="13">EMCI</text>
+</svg>

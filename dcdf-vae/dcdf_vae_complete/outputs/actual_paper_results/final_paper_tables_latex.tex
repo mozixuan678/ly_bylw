@@ -1,0 +1,126 @@
+% Actual experiment-result tables generated from dcdf_vae_complete/outputs.
+% Required packages: booktabs, graphicx, amssymb.
+% Bold marks the best value among the rows available in the current experimental output table.
+
+\begin{table}[h]
+  \centering
+  \caption{本工程实际运行的数据设置汇总}
+  \label{tab:actual_data_setting}
+  \begin{tabular}{lcccc}
+    \hline
+    实验 & 数据来源 & ROI 数 & 儿童组样本量 & 青少年/青年组样本量 \\
+    \hline
+    PNC rs-fMRI & \texttt{outputs/real\_pnc\_264\_e10\_calibrated} & 264 & 193 & 204 \\
+    PNC emoid-fMRI & \texttt{outputs/emoid\_pnc\_264\_e3} & 264 & 154 & 149 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\begin{table}[h]
+  \centering
+  \caption{DCDF-VAE 在 VAR 数据上的实际运行最佳 AUROC 结果（\%，来源：\texttt{outputs/synthetic\_full15}）}
+  \label{tab:var_results_actual}
+  \begin{tabular}{lcccccc}
+    \toprule
+    Model & \multicolumn{3}{c}{VAR-1} & \multicolumn{3}{c}{VAR-2} \\
+    \cmidrule(lr){2-4} \cmidrule(lr){5-7}
+    $T$ & 250 & 500 & 1000 & 250 & 500 & 1000 \\
+    \midrule
+    DCDF-VAE & \textbf{89.90} & \textbf{92.94} & \textbf{92.22} & \textbf{93.92} & \textbf{97.43} & \textbf{98.77} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+  \centering
+  \caption{DCDF-VAE 在 Lorenz--96 数据上的实际运行最佳 AUROC 结果（\%，来源：\texttt{outputs/synthetic\_full15}）}
+  \label{tab:Lorenz_experiment_actual}
+  \begin{tabular}{lcccc}
+    \toprule
+    Model & $N$ & $T=500$ & $T=1000$ & $T=1500$ \\
+    \midrule
+    DCDF-VAE & $N=30$ & \textbf{89.65} & \textbf{95.37} & \textbf{96.86} \\
+    DCDF-VAE & $N=40$ & \textbf{87.53} & \textbf{93.34} & \textbf{97.70} \\
+    DCDF-VAE & $N=50$ & \textbf{91.22} & \textbf{97.82} & \textbf{98.68} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\begin{table}[!htb]
+\centering
+\caption{DCDF-VAE 各模块的实际消融运行结果（Lorenz-96 快速消融，来源：\texttt{outputs/synthetic\_final/ablation}）}
+\label{tab:dcdf_vae_ablation_actual}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lccccc ccc}
+\toprule
+模型设置 & TCN & GAT & Gumbel & CVB & $\mathcal{L}_{sp}$ & AUROC(\%) & AUPRC(\%) & F1(\%) \\
+\midrule
+    DCDF-VAE（全） & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & \textbf{91.82} & \textbf{84.53} & \textbf{77.24} \\
+    DCDF-VAE w/o TCN & $\times$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & 90.23 & 81.28 & 73.76 \\
+    DCDF-VAE w/o GAT & $\checkmark$ & $\times$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & 91.55 & 83.91 & 75.71 \\
+    DCDF-VAE w/o Gumbel & $\checkmark$ & $\checkmark$ & $\times$ & $\checkmark$ & $\checkmark$ & 91.62 & 84.28 & 76.51 \\
+    DCDF-VAE w/o CVB & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & $\checkmark$ & 91.62 & 84.08 & 75.50 \\
+    DCDF-VAE w/o $\mathcal{L}_{sp}$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\times$ & \textbf{91.82} & 84.53 & \textbf{77.24} \\
+\bottomrule
+\end{tabular}
+}
+\end{table}
+
+\begin{table}[h]
+  \caption{不同方法在 PNC rs-fMRI 实际运行输出中估计的儿童与青少年大脑网络连接差异性（来源：\texttt{outputs/real\_pnc\_264\_e10\_calibrated}）}
+  \label{tab:difference_actual}
+  \centering
+  \begin{tabular}{l|c|c|c|c|c}
+    \hline
+    Method & JSD & SSIM & NND & FN & MAE \\
+    \hline
+    DCDF-VAE & \textbf{0.038659} & \textbf{0.445372} & \textbf{209.484611} & \textbf{24.568548} & \textbf{0.070010} \\
+    cMLP & 0.012117 & 0.998110 & 1.347225 & 0.115332 & 0.000351 \\
+    Pearson-Corr & 0.006306 & 0.843312 & 91.879597 & 21.843953 & 0.068479 \\
+    Kendall-Corr & 0.006263 & 0.887957 & 60.909733 & 13.926874 & 0.043668 \\
+    Spearman-Corr & 0.006051 & 0.864551 & 82.464581 & 18.749068 & 0.058558 \\
+    cLSTM & 0.000003 & 0.745377 & 21.257218 & 1.542504 & 0.004665 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\begin{table}[h]
+  \caption{DCDF-VAE 在 PNC emoid-fMRI 实际运行输出中的泛化验证结果（来源：\texttt{outputs/emoid\_pnc\_264\_e3}）}
+  \label{tab:emoid_difference_actual}
+  \centering
+  \begin{tabular}{l|c|c|c|c|c}
+    \hline
+    Method & JSD & SSIM & NND & FN & MAE \\
+    \hline
+    DCDF-VAE & \textbf{0.024354} & \textbf{0.775962} & \textbf{116.736517} & \textbf{18.696037} & \textbf{0.058865} \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\begin{table}[h]
+  \caption{PNC rs-fMRI 实际运行输出中儿童与青少年活跃 dECs 的分类数量及占比}
+  \label{tab:dec_ratio_actual}
+  \centering
+  \begin{tabular}{l|c|c|c|c}
+    \hline
+    人群 & 单向连接(UCs) & 双向连接(BCs) & 自连接(SCs) & 活跃dECs总数 \\
+    \hline
+    儿童 & 2481（53.45\%） & 2134（45.97\%） & 27（0.58\%） & 4642 \\
+    青少年 & 1535（63.64\%） & 850（35.24\%） & 27（1.12\%） & 2412 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\begin{table}[h]
+  \caption{PNC emoid-fMRI 实际运行输出中儿童与青少年活跃 dECs 的分类数量及占比}
+  \label{tab:emoid_dec_ratio_actual}
+  \centering
+  \begin{tabular}{l|c|c|c|c}
+    \hline
+    人群 & 单向连接(UCs) & 双向连接(BCs) & 自连接(SCs) & 活跃dECs总数 \\
+    \hline
+    儿童 & 2679（57.71\%） & 1936（41.71\%） & 27（0.58\%） & 4642 \\
+    青少年 & 1631（67.62\%） & 754（31.26\%） & 27（1.12\%） & 2412 \\
+    \hline
+  \end{tabular}
+\end{table}

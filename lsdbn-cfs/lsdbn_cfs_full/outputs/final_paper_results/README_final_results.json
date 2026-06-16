@@ -1,0 +1,42 @@
+{
+  "final_summary": {
+    "final_model": "LSDBN-CFS + BCFS-124 + focused ExtraTrees",
+    "n_selected_features": 124,
+    "selected_threshold": 0.4716939640826283,
+    "test_accuracy": "84.62%",
+    "test_balanced_accuracy": "85.64%",
+    "precision": "75.41%",
+    "recall": "98.92%",
+    "f1": "85.58%",
+    "confusion_matrix": "[[785, 300], [10, 920]]",
+    "n_windows_per_subject": 155
+  },
+  "formal_focused_row": {
+    "pos_weight": 0.35,
+    "min_samples_leaf": 6,
+    "max_features": "0.4",
+    "threshold_strategy": "fs_accuracy",
+    "threshold": 0.4716939640826283,
+    "fs_accuracy": 0.6438709677419355,
+    "fs_balanced_accuracy": 0.6466488802651791,
+    "test_accuracy": 0.8461538461538461,
+    "test_balanced_accuracy": 0.8563748079877112,
+    "test_confusion_matrix": "[[785, 300], [10, 920]]"
+  },
+  "diagnostic_test_best_row": {
+    "pos_weight": 0.35,
+    "min_samples_leaf": 10,
+    "max_features": "sqrt",
+    "threshold_strategy": "default",
+    "threshold": 0.5,
+    "fs_accuracy": 0.625,
+    "fs_balanced_accuracy": 0.6224189506023122,
+    "test_accuracy": 0.8769230769230769,
+    "test_balanced_accuracy": 0.8828725038402458,
+    "test_confusion_matrix": "[[874, 211], [37, 893]]"
+  },
+  "outputs": {
+    "tables": "D:\\bylw_code\\lsdbn-cfs\\lsdbn_cfs_full\\outputs\\final_paper_results\\tables",
+    "figures": "D:\\bylw_code\\lsdbn-cfs\\lsdbn_cfs_full\\outputs\\final_paper_results\\figures"
+  }
+}

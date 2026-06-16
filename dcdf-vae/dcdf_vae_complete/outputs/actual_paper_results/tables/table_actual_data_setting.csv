@@ -1,0 +1,3 @@
+﻿实验,数据来源,ROI数,儿童组样本量,青少年/青年组样本量
+PNC rs-fMRI,outputs/real_pnc_264_e10_calibrated,264,193,204
+PNC emoid-fMRI,outputs/emoid_pnc_264_e3,264,154,149

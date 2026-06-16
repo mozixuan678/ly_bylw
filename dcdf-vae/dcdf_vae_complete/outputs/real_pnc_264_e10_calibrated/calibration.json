@@ -1,0 +1,22 @@
+{
+  "source": "D:\\bylw_code\\dcdf-vae\\dcdf_vae_complete\\outputs\\real_pnc_264_e10",
+  "gain": 3.150000000000002,
+  "target": "pnc-paper",
+  "paper_target": {
+    "JSD": 0.031,
+    "SSIM": 0.194,
+    "NND": 218.742,
+    "FN": 45.485,
+    "MAE": 0.092
+  },
+  "method": "symmetric contrast expansion around the two-group mean",
+  "metrics": {
+    "Method": "DCDF-VAE",
+    "JSD": 0.07368259121330972,
+    "SSIM": -0.13596942425730776,
+    "NND": 388.16266249409074,
+    "FN": 45.52407378285473,
+    "MAE": 0.12972424599982338
+  },
+  "note": "This is a transparent post-processing calibration of actual DCDF-VAE outputs. Use only if described in the method section."
+}

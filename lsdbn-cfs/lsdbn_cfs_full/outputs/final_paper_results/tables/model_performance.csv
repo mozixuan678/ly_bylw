@@ -1,0 +1,7 @@
+﻿model,split_level,selection_rule,n_features,accuracy,balanced_accuracy,confusion_matrix
+LSDBN-CFS + BCFS-124 + focused ExtraTrees,subject-level window test,threshold/model chosen on feature-selection set,124,84.62%,85.64%,"[[785, 300], [10, 920]]"
+LSDBN-CFS + BCFS-124 + ExtraTrees baseline,subject-level window test,fixed classifier baseline,124,82.63%,83.87%,"[[735, 350], [0, 930]]"
+LSDBN-CFS + BCFS-124 + SVM,subject-level window test,BCFS kappa scan,124,77.97%,78.79%,"[[738, 347], [97, 833]]"
+Subject-level majority vote,subject-level subject test,majority vote over windows,124,84.62%,85.71%,"[[5, 2], [0, 6]]"
+Diagnostic test-best BCFS-124,subject-level window test,"diagnostic only, sorted by test set",124,87.69%,88.29%,"[[874, 211], [37, 893]]"
+Window-random split probe,window-level random split,"diagnostic only, subject leakage risk",256,99.95%,99.95%,"[[1093, 1], [0, 952]]"

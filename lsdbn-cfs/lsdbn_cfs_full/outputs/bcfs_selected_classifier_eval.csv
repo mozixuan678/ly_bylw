@@ -1,0 +1,11 @@
+﻿selected_source,model,train_strategy,n_features,test_accuracy,test_balanced_accuracy,confusion_matrix
+outputs\precomputed_lsdbn_h128\selected_features.csv,extra_trees,train_only,124,0.826302729528536,0.8387096774193548,"[[735, 350], [0, 930]]"
+outputs\precomputed_lsdbn_h128\selected_features.csv,rbf_svc_C0.03,train_only,124,0.8228287841191066,0.8354838709677419,"[[728, 357], [0, 930]]"
+outputs\precomputed_lsdbn_h128\selected_features.csv,rbf_svc_C0.03,train_plus_feature_selection,124,0.822332506203474,0.8350230414746544,"[[727, 358], [0, 930]]"
+outputs\precomputed_lsdbn_h128\selected_features.csv,random_forest,train_only,124,0.8213399503722084,0.8327956989247312,"[[742, 343], [17, 913]]"
+outputs\precomputed_lsdbn_h128\selected_features.csv,extra_trees,train_plus_feature_selection,124,0.8193548387096774,0.831874039938556,"[[726, 359], [5, 925]]"
+outputs\precomputed_lsdbn_h128\selected_features.csv,rbf_svc_C0.01,train_only,124,0.8148883374689826,0.8281105990783411,"[[712, 373], [0, 930]]"
+outputs\precomputed_lsdbn_h128\selected_features.csv,random_forest,train_plus_feature_selection,124,0.8143920595533499,0.8258832565284178,"[[734, 351], [23, 907]]"
+outputs\precomputed_lsdbn_h128\selected_features.csv,rbf_svc_C0.01,train_plus_feature_selection,124,0.8109181141439206,0.8244239631336405,"[[704, 381], [0, 930]]"
+outputs\precomputed_lsdbn_h128\selected_features.csv,logistic_l1_C0.003,train_only,124,0.7915632754342432,0.8064516129032258,"[[665, 420], [0, 930]]"
+outputs\precomputed_lsdbn_h128\selected_features.csv,logistic_l1_C0.003,train_plus_feature_selection,124,0.7866004962779156,0.8018433179723503,"[[655, 430], [0, 930]]"

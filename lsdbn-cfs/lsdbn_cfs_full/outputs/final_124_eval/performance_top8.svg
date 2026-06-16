@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="28" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700">Top 124-feature Test Accuracy</text>
+<line x1="70" y1="50" x2="70" y2="360" stroke="#333"/>
+<line x1="70" y1="360" x2="870" y2="360" stroke="#333"/>
+<rect x="84.0" y="50.0" width="72.0" height="310.0" fill="#3b82f6"/>
+<text x="120.0" y="44.0" text-anchor="middle" font-family="Arial" font-size="12">0.821</text>
+<text x="120.0" y="380" text-anchor="end" transform="rotate(-35 120.0,380)" font-family="Arial" font-size="11">anova-extra_trees-train</text>
+<rect x="184.0" y="51.5" width="72.0" height="308.5" fill="#3b82f6"/>
+<text x="220.0" y="45.5" text-anchor="middle" font-family="Arial" font-size="12">0.817</text>
+<text x="220.0" y="380" text-anchor="end" transform="rotate(-35 220.0,380)" font-family="Arial" font-size="11">fisher-rbf_svc-train</text>
+<rect x="284.0" y="51.5" width="72.0" height="308.5" fill="#3b82f6"/>
+<text x="320.0" y="45.5" text-anchor="middle" font-family="Arial" font-size="12">0.817</text>
+<text x="320.0" y="380" text-anchor="end" transform="rotate(-35 320.0,380)" font-family="Arial" font-size="11">anova-rbf_svc-train</text>
+<rect x="384.0" y="51.9" width="72.0" height="308.1" fill="#3b82f6"/>
+<text x="420.0" y="45.9" text-anchor="middle" font-family="Arial" font-size="12">0.816</text>
+<text x="420.0" y="380" text-anchor="end" transform="rotate(-35 420.0,380)" font-family="Arial" font-size="11">anova-extra_trees-train</text>
+<rect x="484.0" y="52.8" width="72.0" height="307.2" fill="#3b82f6"/>
+<text x="520.0" y="46.8" text-anchor="middle" font-family="Arial" font-size="12">0.813</text>
+<text x="520.0" y="380" text-anchor="end" transform="rotate(-35 520.0,380)" font-family="Arial" font-size="11">fisher-rbf_svc-train</text>
+<rect x="584.0" y="52.8" width="72.0" height="307.2" fill="#3b82f6"/>
+<text x="620.0" y="46.8" text-anchor="middle" font-family="Arial" font-size="12">0.813</text>
+<text x="620.0" y="380" text-anchor="end" transform="rotate(-35 620.0,380)" font-family="Arial" font-size="11">fisher-rbf_svc-train</text>
+<rect x="684.0" y="52.8" width="72.0" height="307.2" fill="#3b82f6"/>
+<text x="720.0" y="46.8" text-anchor="middle" font-family="Arial" font-size="12">0.813</text>
+<text x="720.0" y="380" text-anchor="end" transform="rotate(-35 720.0,380)" font-family="Arial" font-size="11">anova-rbf_svc-train</text>
+<rect x="784.0" y="52.8" width="72.0" height="307.2" fill="#3b82f6"/>
+<text x="820.0" y="46.8" text-anchor="middle" font-family="Arial" font-size="12">0.813</text>
+<text x="820.0" y="380" text-anchor="end" transform="rotate(-35 820.0,380)" font-family="Arial" font-size="11">anova-extra_trees-train</text>
+</svg>

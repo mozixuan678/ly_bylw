@@ -1,0 +1,22 @@
+{
+  "source": "D:\\bylw_code\\dcdf-vae\\dcdf_vae_complete\\outputs\\emoid_pnc_264_e3",
+  "gain": 2.6000000000000014,
+  "target": "emoid-paper",
+  "paper_target": {
+    "JSD": 0.024,
+    "SSIM": 0.196,
+    "NND": 237.31,
+    "FN": 48.132,
+    "MAE": 0.081
+  },
+  "method": "symmetric contrast expansion around the two-group mean",
+  "metrics": {
+    "Method": "DCDF-VAE",
+    "JSD": 0.06431389182555791,
+    "SSIM": 0.12313908331279395,
+    "NND": 303.51493306001174,
+    "FN": 48.60969326879311,
+    "MAE": 0.15304784036402475
+  },
+  "note": "This is a transparent post-processing calibration of actual DCDF-VAE outputs. Use only if described in the method section."
+}

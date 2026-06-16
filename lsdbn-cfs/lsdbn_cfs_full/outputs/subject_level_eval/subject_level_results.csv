@@ -1,0 +1,5 @@
+﻿experiment,n_features,test_accuracy,test_balanced_accuracy,subject_accuracy,subject_balanced_accuracy,confusion_matrix
+window_model_subject_majority_vote,124,0.8208436724565756,0.8331797235023042,0.8461538461538461,0.8571428571428572,"[[5, 2], [0, 6]]"
+subject_mean_extra_trees,124,,,0.8461538461538461,0.8571428571428572,"[[5, 2], [0, 6]]"
+subject_mean_rbf_C0.1,124,,,0.7692307692307693,0.7857142857142857,"[[4, 3], [0, 6]]"
+subject_mean_rbf_C0.03,124,,,0.46153846153846156,0.5,"[[0, 7], [0, 6]]"

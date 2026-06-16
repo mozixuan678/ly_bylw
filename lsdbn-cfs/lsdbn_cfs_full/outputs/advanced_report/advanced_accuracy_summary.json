@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Formal FS-selected BCFS-124",
+    "type": "strict",
+    "accuracy": 0.8461538461538461,
+    "balanced_accuracy": 0.8563748079877112,
+    "selection_rule": "max feature-selection accuracy among train_only models",
+    "source_file": "outputs/tune_bcfs_124_advanced.csv",
+    "params": "{\"pos_weight\": 0.35, \"min_samples_leaf\": 6, \"max_features\": \"0.4\", \"threshold_strategy\": \"fs_accuracy\", \"threshold\": 0.4716939640826283, \"source\": \"focused_extra_trees\"}",
+    "confusion_matrix": "[[785, 300], [10, 920]]"
+  },
+  {
+    "name": "Diagnostic test-best BCFS-124",
+    "type": "diagnostic",
+    "accuracy": 0.8769230769230769,
+    "balanced_accuracy": 0.8828725038402458,
+    "selection_rule": "sorted by test accuracy; diagnostic only",
+    "source_file": "outputs/tune_bcfs_124_advanced.csv",
+    "params": "{\"pos_weight\": 0.35, \"min_samples_leaf\": 10, \"max_features\": \"sqrt\", \"threshold_strategy\": \"default\", \"threshold\": 0.5, \"source\": \"focused_extra_trees\"}",
+    "confusion_matrix": "[[874, 211], [37, 893]]"
+  },
+  {
+    "name": "BCFS-124 ExtraTrees baseline",
+    "type": "strict",
+    "accuracy": 0.826302729528536,
+    "balanced_accuracy": 0.8387096774193548,
+    "selection_rule": "fixed classifier baseline",
+    "source_file": "outputs/bcfs_selected_classifier_eval.csv",
+    "params": "extra_trees",
+    "confusion_matrix": "[[735, 350], [0, 930]]"
+  },
+  {
+    "name": "Subject-level majority vote",
+    "type": "subject",
+    "accuracy": 0.8461538461538461,
+    "balanced_accuracy": 0.8571428571428572,
+    "selection_rule": "majority vote over test subject windows",
+    "source_file": "outputs/subject_level_eval/subject_level_results.csv",
+    "params": "window_model_subject_majority_vote",
+    "confusion_matrix": "[[5, 2], [0, 6]]"
+  },
+  {
+    "name": "Window-random split probe",
+    "type": "diagnostic",
+    "accuracy": 0.9995112414467252,
+    "balanced_accuracy": 0.9995429616087752,
+    "selection_rule": "window-level random split; leakage diagnostic only",
+    "source_file": "outputs\\window_leakage_probe.csv",
+    "params": "extra_trees k=256",
+    "confusion_matrix": "[[1093, 1], [0, 952]]"
+  }
+]

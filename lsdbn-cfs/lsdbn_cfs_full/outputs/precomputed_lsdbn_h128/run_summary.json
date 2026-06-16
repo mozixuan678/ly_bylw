@@ -1,0 +1,92 @@
+{
+  "feature_source": "D:\\bylw_code\\lsdbn-cfs\\feature_vectors.npy",
+  "subject_level_split": true,
+  "n_subjects": 132,
+  "n_windows_per_subject": 155,
+  "train_shape": [
+    12245,
+    8010
+  ],
+  "fs_shape": [
+    6200,
+    8010
+  ],
+  "test_shape": [
+    2015,
+    8010
+  ],
+  "config": {
+    "data_path": "../ADdata.npy",
+    "output_dir": "outputs/quick_run",
+    "random_state": 42,
+    "repeats": 1,
+    "methods": "all",
+    "force_recompute_dec": false,
+    "window": 25,
+    "step": 5,
+    "te_lag": 1,
+    "te_eps": 1e-08,
+    "train_ratio": 0.6,
+    "fs_ratio": 0.3,
+    "test_ratio": 0.1,
+    "input_prefilter_k": 512,
+    "input_prefilter_method": "fisher",
+    "selected_k": 124,
+    "relief_neighbors": 1,
+    "hidden_layers": [
+      128,
+      64,
+      32
+    ],
+    "jcfs_keep": [
+      80,
+      48,
+      24
+    ],
+    "epochs": 4,
+    "batch_size": 256,
+    "cd_k": 1,
+    "lr_first": 0.001,
+    "lr_other": 0.01,
+    "weight_decay": 0.005,
+    "logsum_lambda": 0.005,
+    "kl_lambda_first": 0.001,
+    "kl_lambda_other": 0.0001,
+    "sparsity_target": 0.01,
+    "logsum_eps": 0.001,
+    "device": "auto",
+    "jcfs_beta": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "ecfs_alpha": 0.5,
+    "kappa": 0.03,
+    "kappa_values": [
+      0.0,
+      0.01,
+      0.03,
+      0.05,
+      0.08,
+      0.1
+    ],
+    "m_min": 50,
+    "classifier": "svm"
+  },
+  "top_abstract": {
+    "scenario": "abstract_features",
+    "test_accuracy": 0.5384615384615384,
+    "test_balanced_accuracy": 0.5,
+    "test_confusion_matrix": "[[1085, 0], [930, 0]]"
+  },
+  "best_selected_by_fs": {
+    "kappa": 0.005,
+    "n_selected": 124,
+    "fs_accuracy": 0.6343548387096775,
+    "fs_balanced_accuracy": 0.6404964022960628,
+    "test_accuracy": 0.7796526054590571,
+    "test_balanced_accuracy": 0.7879416282642089,
+    "test_confusion_matrix": "[[738, 347], [97, 833]]"
+  },
+  "elapsed_seconds": 159.30203318595886
+}

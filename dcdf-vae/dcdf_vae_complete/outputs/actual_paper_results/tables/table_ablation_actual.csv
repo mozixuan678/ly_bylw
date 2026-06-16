@@ -1,0 +1,7 @@
+﻿模型设置,TCN,GAT,Gumbel,CVB,L_sparse,AUROC(%),AUPRC(%),F1(%),final_loss
+DCDF-VAE（全）,$\checkmark$,$\checkmark$,$\checkmark$,$\checkmark$,$\checkmark$,91.82,84.53,77.24,0.8419
+DCDF-VAE w/o TCN,$\times$,$\checkmark$,$\checkmark$,$\checkmark$,$\checkmark$,90.23,81.28,73.76,0.3187
+DCDF-VAE w/o GAT,$\checkmark$,$\times$,$\checkmark$,$\checkmark$,$\checkmark$,91.55,83.91,75.71,1.0188
+DCDF-VAE w/o Gumbel,$\checkmark$,$\checkmark$,$\times$,$\checkmark$,$\checkmark$,91.62,84.28,76.51,0.4621
+DCDF-VAE w/o CVB,$\checkmark$,$\checkmark$,$\checkmark$,$\times$,$\checkmark$,91.62,84.08,75.5,0.0995
+DCDF-VAE w/o $\mathcal{L}_{sp}$,$\checkmark$,$\checkmark$,$\checkmark$,$\checkmark$,$\times$,91.82,84.53,77.24,0.8416

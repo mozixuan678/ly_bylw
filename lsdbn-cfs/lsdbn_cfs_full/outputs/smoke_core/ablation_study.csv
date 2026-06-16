@@ -1,0 +1,11 @@
+﻿model_name,scenario,accuracy_mean,accuracy_std,balanced_accuracy_mean,balanced_accuracy_std,n_features_mean,p_value_vs_LSDBN_CFS
+DBN,abstract_features,0.5128205128205128,0.0,0.51010101010101,0.0,24.0,
+DBN,selected_original_features,0.47785547785547783,0.0,0.4787157287157287,0.0,20.0,
+Sparse DBN,abstract_features,0.4662004662004662,0.0,0.503968253968254,0.0,24.0,
+Sparse DBN,selected_original_features,0.47785547785547783,0.0,0.4787157287157287,0.0,20.0,
+JCFS-DBN,abstract_features,0.5384615384615384,0.0,0.5,0.0,16.0,
+JCFS-DBN,selected_original_features,0.5011655011655012,0.0,0.4931457431457431,0.0,20.0,
+LSDBN-CFS w/o BCFS,abstract_features,0.5384615384615384,0.0,0.5,0.0,16.0,
+LSDBN-CFS w/o BCFS,selected_original_features,0.5011655011655012,0.0,0.4931457431457431,0.0,20.0,
+LSDBN-CFS,abstract_features,0.5384615384615384,0.0,0.5,0.0,16.0,
+LSDBN-CFS,selected_original_features,0.5151515151515151,0.0,0.5151515151515151,0.0,20.0,

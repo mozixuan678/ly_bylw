@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="440" viewBox="0 0 900 440">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="28" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700">Top ROI Frequency in 124 Features</text>
+<line x1="70" y1="50" x2="70" y2="360" stroke="#333"/>
+<line x1="70" y1="360" x2="870" y2="360" stroke="#333"/>
+<rect x="79.3" y="50.0" width="48.0" height="310.0" fill="#3b82f6"/>
+<text x="103.3" y="44.0" text-anchor="middle" font-family="Arial" font-size="12">25.000</text>
+<text x="103.3" y="380" text-anchor="end" transform="rotate(-35 103.3,380)" font-family="Arial" font-size="11">PAL.R</text>
+<rect x="146.0" y="87.2" width="48.0" height="272.8" fill="#3b82f6"/>
+<text x="170.0" y="81.2" text-anchor="middle" font-family="Arial" font-size="12">22.000</text>
+<text x="170.0" y="380" text-anchor="end" transform="rotate(-35 170.0,380)" font-family="Arial" font-size="11">PUT.R</text>
+<rect x="212.7" y="149.2" width="48.0" height="210.8" fill="#3b82f6"/>
+<text x="236.7" y="143.2" text-anchor="middle" font-family="Arial" font-size="12">17.000</text>
+<text x="236.7" y="380" text-anchor="end" transform="rotate(-35 236.7,380)" font-family="Arial" font-size="11">PHG.R</text>
+<rect x="279.3" y="161.6" width="48.0" height="198.4" fill="#3b82f6"/>
+<text x="303.3" y="155.6" text-anchor="middle" font-family="Arial" font-size="12">16.000</text>
+<text x="303.3" y="380" text-anchor="end" transform="rotate(-35 303.3,380)" font-family="Arial" font-size="11">DCG.L</text>
+<rect x="346.0" y="161.6" width="48.0" height="198.4" fill="#3b82f6"/>
+<text x="370.0" y="155.6" text-anchor="middle" font-family="Arial" font-size="12">16.000</text>
+<text x="370.0" y="380" text-anchor="end" transform="rotate(-35 370.0,380)" font-family="Arial" font-size="11">HIP.R</text>
+<rect x="412.7" y="174.0" width="48.0" height="186.0" fill="#3b82f6"/>
+<text x="436.7" y="168.0" text-anchor="middle" font-family="Arial" font-size="12">15.000</text>
+<text x="436.7" y="380" text-anchor="end" transform="rotate(-35 436.7,380)" font-family="Arial" font-size="11">OLF.R</text>
+<rect x="479.3" y="198.8" width="48.0" height="161.2" fill="#3b82f6"/>
+<text x="503.3" y="192.8" text-anchor="middle" font-family="Arial" font-size="12">13.000</text>
+<text x="503.3" y="380" text-anchor="end" transform="rotate(-35 503.3,380)" font-family="Arial" font-size="11">THA.R</text>
+<rect x="546.0" y="223.6" width="48.0" height="136.4" fill="#3b82f6"/>
+<text x="570.0" y="217.6" text-anchor="middle" font-family="Arial" font-size="12">11.000</text>
+<text x="570.0" y="380" text-anchor="end" transform="rotate(-35 570.0,380)" font-family="Arial" font-size="11">CAU.R</text>
+<rect x="612.7" y="223.6" width="48.0" height="136.4" fill="#3b82f6"/>
+<text x="636.7" y="217.6" text-anchor="middle" font-family="Arial" font-size="12">11.000</text>
+<text x="636.7" y="380" text-anchor="end" transform="rotate(-35 636.7,380)" font-family="Arial" font-size="11">DCG.R</text>
+<rect x="679.3" y="223.6" width="48.0" height="136.4" fill="#3b82f6"/>
+<text x="703.3" y="217.6" text-anchor="middle" font-family="Arial" font-size="12">11.000</text>
+<text x="703.3" y="380" text-anchor="end" transform="rotate(-35 703.3,380)" font-family="Arial" font-size="11">PHG.L</text>
+<rect x="746.0" y="223.6" width="48.0" height="136.4" fill="#3b82f6"/>
+<text x="770.0" y="217.6" text-anchor="middle" font-family="Arial" font-size="12">11.000</text>
+<text x="770.0" y="380" text-anchor="end" transform="rotate(-35 770.0,380)" font-family="Arial" font-size="11">HIP.L</text>
+<rect x="812.7" y="248.4" width="48.0" height="111.6" fill="#3b82f6"/>
+<text x="836.7" y="242.4" text-anchor="middle" font-family="Arial" font-size="12">9.000</text>
+<text x="836.7" y="380" text-anchor="end" transform="rotate(-35 836.7,380)" font-family="Arial" font-size="11">ACG.R</text>
+</svg>

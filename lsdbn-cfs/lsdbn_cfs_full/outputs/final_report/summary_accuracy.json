@@ -1,0 +1,37 @@
+[
+  {
+    "name": "LSDBN-CFS BCFS-124 SVM",
+    "type": "window",
+    "accuracy": 0.7796526054590571,
+    "balanced_accuracy": 0.7879416282642089,
+    "source_file": "outputs/precomputed_lsdbn_h128/threshold_curve.csv"
+  },
+  {
+    "name": "LSDBN-CFS BCFS-124 ExtraTrees",
+    "type": "window",
+    "accuracy": 0.826302729528536,
+    "balanced_accuracy": 0.8387096774193548,
+    "source_file": "outputs/bcfs_selected_classifier_eval.csv"
+  },
+  {
+    "name": "Best single 124-feature model",
+    "type": "window",
+    "accuracy": 0.8208436724565756,
+    "balanced_accuracy": 0.8331797235023042,
+    "source_file": "outputs/final_124_eval/final_124_performance.csv"
+  },
+  {
+    "name": "Best 124-feature ensemble",
+    "type": "window",
+    "accuracy": 0.8218362282878412,
+    "balanced_accuracy": 0.8341013824884793,
+    "source_file": "outputs/ensemble_124_eval.csv"
+  },
+  {
+    "name": "Subject-level vote/mean",
+    "type": "subject",
+    "accuracy": 0.8461538461538461,
+    "balanced_accuracy": 0.8571428571428572,
+    "source_file": "outputs/subject_level_eval/subject_level_results.csv"
+  }
+]

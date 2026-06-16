@@ -1,0 +1,2 @@
+group,hp_id,hidden_dim,latent_dim,lambda_sparse,lambda_kl,lambda_prior,lr,selection_score,final_loss,final_val_loss,mean_density_q95
+young,0,32,12,0.0008,0.0001,0.03,0.001,0.9275514617789438,0.2598016463865445,0.9275513182986866,0.05000286960514233
